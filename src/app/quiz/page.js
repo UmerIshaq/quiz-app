@@ -16,11 +16,9 @@ const QuizPage = () => {
   const [score, setScore] = useState(0);
   const quiz = data[index];
   const HandleIndex = () => {
-    // console.log(score);
     setSelected();
     setIndex(index + 1);
   };
-  const handleAnswer = (e) => {};
   return (
     <div className="w-full h-screen bg-slate-300">
       <div className="">
