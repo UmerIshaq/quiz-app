@@ -54,7 +54,6 @@ const QuizPage = () => {
                           ? setScore(score + 1)
                           : null;
                         setSelected(0);
-                        handleAnswer();
                       }}
                       className={cn(
                         `border-2 border-slate-300 py-3 hover:bg-slate-300 cursor-pointer `,
