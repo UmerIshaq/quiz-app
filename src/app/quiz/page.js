@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
-const quizPage = () => {
+const QuizPage = () => {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState();
   const [score, setScore] = useState(0);
@@ -170,4 +170,4 @@ const quizPage = () => {
   );
 };
 
-export default quizPage;
+export default QuizPage;
