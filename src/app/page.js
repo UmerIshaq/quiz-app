@@ -9,9 +9,9 @@ export default function Home() {
         <h1 className="text-5xl font-bold font-serif text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-fuchsia-600">
           Quiz App
         </h1>
-        <h3 className="text-3xl font-semibold flex flex-wrap">
+        {/* <h3 className="text-3xl font-semibold flex flex-wrap">
           Are you ready to take a quiz?
-        </h3>
+        </h3> */}
         <Link href={"/quiz"}>
           <Button
             className={
