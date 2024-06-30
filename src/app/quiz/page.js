@@ -15,8 +15,8 @@ const quizPage = () => {
   const [selected, setSelected] = useState();
   const [score, setScore] = useState(0);
   const quiz = data[index];
-  const handleIndex = () => {
-    console.log(score);
+  const HandleIndex = () => {
+    // console.log(score);
     setSelected();
     setIndex(index + 1);
   };
@@ -122,7 +122,7 @@ const quizPage = () => {
                         "w-full md:w-[100px] py-6 hover:bg-gradient-to-r hover:from-blue-600 hover:to-fuchsia-600"
                       }
                       onClick={() => {
-                        handleIndex();
+                        HandleIndex();
                       }}
                     >
                       Next
